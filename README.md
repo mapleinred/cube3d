@@ -1,2 +1,2 @@
-# 42-cube3d
+# 42-cub3d
 3d game
