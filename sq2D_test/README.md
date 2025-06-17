@@ -1,5 +1,4 @@
-
-# SQ2D - A Raycasting Experiment with miniLibX
+# sq2D - A Raycasting Experiment with miniLibX
 
 ## Project Overview
 
@@ -27,6 +26,24 @@ The project serves as a precursor to developing a full cub3D implementation, hel
 This "visual trick" was computationally efficient enough to run on early 1990s hardware.
 
 ## File Structure
+
+```
+sq2D_test/
+├── image1.png
+├── Makefile
+├── README.md
+├── small
+├── sq2d
+├── include/
+│   └── sq2d.h
+├── libs/
+│   ├── libft/
+│   └── minilibx-linux/
+├── srcs/
+│   ├── atod.c
+│   ├── raycaster.c
+│   └── sq2d.c
+```
 
 - `sq2d.h` - Main header with all definitions and structures
 - `sq2d.c` - Core game implementation

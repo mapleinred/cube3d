@@ -1,4 +1,3 @@
-
 # Cub3D - A Wolfenstein 3D Style Raycaster
 [sq2D README](sq2D_test/README.md)
 ![alt text](sq2D_test/image1.png)
@@ -146,19 +145,67 @@ void load_texture(t_game *game)
 
 ```
 cub3d/
-├── includes/           # Header files
-│   ├── cub3d.h         # Main header
-│   └── keycodes.h      # Keyboard codes
-├── srcs/               # Source files
-│   ├── init/           # Initialization code
-│   ├── raycasting/     # 3D rendering
-│   ├── minimap/        # 2D minimap
-│   ├── parsing/        # Map parsing
-│   └── utils/          # Helper functions
-├── libs/               # External libraries
-│   ├── libft/          # Custom C library
-│   └── minilibx/       # Graphics library
-└── xpm/               # Map files
+├── en.subject.pdf           # Project subject PDF
+├── image.png                # Example image
+├── README.md                # Project documentation
+│
+├── cub3d/                   # Main 3D project
+│   ├── Makefile             # Build instructions
+│   ├── test.cub             # Example map file
+│   ├── tmap.cub             # Example map file
+│   ├── tmap3.cub            # Example map file
+│   │
+│   ├── include/             # Header files
+│   │   ├── cub3d.h          # Main header
+│   │   └── keycodes.h       # Keyboard codes
+│   │
+│   ├── libs/                # External libraries
+│   │   ├── libft/           # Custom C utility library
+│   │   └── minilibx-linux/  # Minimal graphics library
+│   │
+│   ├── srcs/                # Source files
+│   │   ├── cub3d.c          # Main program entry
+│   │   ├── draw.c           # Drawing functions
+│   │   ├── drawray.c        # Raycasting logic
+│   │   ├── drawray3d.c      # 3D rendering
+│   │   ├── free.c           # Memory management
+│   │   ├── init.c           # Initialization code
+│   │   ├── keyhook.c        # Keyboard input handling
+│   │   ├── linecheck.c      # Map line validation
+│   │   ├── load.c           # Resource loading
+│   │   ├── mapcheck.c       # Map validation
+│   │   ├── mapline.c        # Map line parsing
+│   │   ├── minimap.c        # 2D minimap rendering
+│   │   ├── mlx.c            # MiniLibX wrapper
+│   │   ├── texture.c        # Texture management
+│   │   └── utils.c          # Helper functions
+│   │
+│   └── xpm/                 # Texture files
+│       ├── blue_stone.xpm   # Wall texture
+│       ├── color_stone.xpm  # Wall texture
+│       ├── eagle.xpm        # Sprite texture
+│       ├── grey_stone.xpm   # Wall texture
+│       ├── mossy.xpm        # Wall texture
+│       └── ...              # Other .xpm textures
+│
+└── sq2D_test/               # 2D test project
+    ├── image1.png           # Example image
+    ├── Makefile             # Build instructions
+    ├── README.md            # Project documentation
+    ├── small                # Example data file
+    ├── sq2d                 # Compiled executable
+    │
+    ├── include/             # Header files
+    │   └── sq2d.h           # Main header
+    │
+    ├── libs/                # External libraries
+    │   ├── libft/           # Custom C utility library
+    │   └── minilibx-linux/  # Minimal graphics library
+    │
+    └── srcs/                # Source files
+        ├── atod.c           # ASCII to double conversion
+        ├── raycaster.c      # Raycasting logic
+        └── sq2d.c           # Main program entry
 ```
 
 ## Building and Running
