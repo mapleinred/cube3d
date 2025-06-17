@@ -158,7 +158,7 @@ cub3d/
 ├── libs/               # External libraries
 │   ├── libft/          # Custom C library
 │   └── minilibx/       # Graphics library
-└── maps/               # Map files
+└── xpm/               # Map files
 ```
 
 ## Building and Running
