@@ -146,14 +146,10 @@ void load_texture(t_game *game)
 ```
 cub3d/
 ├── en.subject.pdf           # Project subject PDF
-├── image.png                # Example image
-├── README.md                # Project documentation
+├── README.md                
 │
 ├── cub3d/                   # Main 3D project
 │   ├── Makefile             # Build instructions
-│   ├── test.cub             # Example map file
-│   ├── tmap.cub             # Example map file
-│   ├── tmap3.cub            # Example map file
 │   │
 │   ├── include/             # Header files
 │   │   ├── cub3d.h          # Main header
@@ -181,17 +177,10 @@ cub3d/
 │   │   └── utils.c          # Helper functions
 │   │
 │   └── xpm/                 # Texture files
-│       ├── blue_stone.xpm   # Wall texture
-│       ├── color_stone.xpm  # Wall texture
-│       ├── eagle.xpm        # Sprite texture
-│       ├── grey_stone.xpm   # Wall texture
-│       ├── mossy.xpm        # Wall texture
-│       └── ...              # Other .xpm textures
 │
 └── sq2D_test/               # 2D test project
-    ├── image1.png           # Example image
     ├── Makefile             # Build instructions
-    ├── README.md            # Project documentation
+    ├── README.md            
     ├── small                # Example data file
     ├── sq2d                 # Compiled executable
     │
