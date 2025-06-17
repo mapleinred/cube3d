@@ -1,6 +1,6 @@
 
 # Cub3D - A Wolfenstein 3D Style Raycaster
-[sq2D](sq2D_test/README.md)
+[sq2D README](sq2D_test/README.md)
 ![alt text](sq2D_test/image1.png)
 ![alt text](image.png)
 ## Project Overview
