@@ -25,12 +25,13 @@
 #include "../libs/minilibx-linux/mlx.h"
 
 /*  Dimensions	*/
-# define WIDTH 800
-# define HEIGHT 600
+// # define WIDTH 800
+// # define HEIGHT 600
 # define SPRITE_SIZE 100
 # define PLAYER_SIZE 10
 # define BUFFER 1024
-# define PI 3.1415926535
+# define PI 3.14159265358979323846
+# define NUM_RAYS 60
 
 /* Key */
 # define ON_KEYDOWN 2
@@ -59,13 +60,13 @@ typedef struct s_sq2d
 	int		width;
 	int		height;
 	char	**map_arr;
-	int     player_x;
-    int     player_y;
-	double  player_pixel_x;
-    double  player_pixel_y;
+	double     pposx;
+    double     pposy;
     double	pa;
-    double	pdx;
-    double 	pdy;
+    double	pdirx;
+    double 	pdiry;
+    double planeX;
+    double planeY;
 }	t_sq2d;
 
 int		destroyhook(t_sq2d *game);
