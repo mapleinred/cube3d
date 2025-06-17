@@ -217,7 +217,7 @@ planeY = oldPlaneX * sin(rotSpeed) + planeY * cos(rotSpeed);
 - `Left/Right Arrows`: Rotate view
 - `ESC`: Quit game
 
-![alt text](image.png)
+![alt text](image1.png)
 ## Learning Outcomes
 
 This project demonstrates:

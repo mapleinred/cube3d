@@ -1,6 +1,8 @@
 
 # Cub3D - A Wolfenstein 3D Style Raycaster
-
+[sq2D](sq2D_test/README.md)
+![alt text](sq2D_test/image1.png)
+![alt text](image.png)
 ## Project Overview
 
 Cub3D is a 3D raycasting engine inspired by the classic game Wolfenstein 3D. This project uses the miniLibX graphics library to create a first-person perspective 3D environment from a 2D map, demonstrating fundamental computer graphics techniques used in early 3D games.
